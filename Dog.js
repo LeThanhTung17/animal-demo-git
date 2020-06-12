@@ -1,3 +1,5 @@
-function Dog(name) {
-	this.name = name
+function Dog() {
+
 }
+
+module.exports = Dog
