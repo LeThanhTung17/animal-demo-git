@@ -1,11 +1,6 @@
 function Mouse(name, age) {
 	this.name = name;
-	this.age = age;
-	this.dead = false;
-}
-
-Mouse.property.die = function() {
-	this.dead = true;
+	this.age = age
 }
 
 module.exports = Mouse;
