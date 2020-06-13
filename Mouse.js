@@ -4,7 +4,7 @@ function Mouse(name, age) {
 	this.dead = false;
 }
 
-Mouse.prototype.die = function() {
+Mouse.property.die = function() {
 	this.dead = true;
 }
 
